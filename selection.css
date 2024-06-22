@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+.option button{
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #5a644f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#private-transport button{
+    margin-top: 0px;
+}
+
+#public-transport button{
+    margin-top: 8px;
+}
+
+.selection-part {
+    /* background-image: url('matcha green laptop wallpaper.jpg'); */
+    background: #9CAF88;
+    /* border-radius: 10px; */
+    /* padding: 120px 500px; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+
+    /* background-image: url('green bg.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-container h1 {
+    margin: 0;
+}
+
+.logo-container span {
+    color: green;
+}
+
+.menu-icon {
+    font-size: 30px;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.selection-container {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.option {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.option::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+#public-transport img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#private-transport img{
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.option button:hover{
+    background-color: #909f7f;
+}
+
+.option a{
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}

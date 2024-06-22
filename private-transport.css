@@ -1,0 +1,189 @@
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 3px solid #007BFF;
+    background-color: #fff;
+}
+
+.logo-container {
+    text-align: left;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-container span {
+    color: green;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.main {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.header-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #9CAF88;
+}
+
+.header-container p1 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+}
+
+form {
+    margin-top: 30px;
+}
+
+.all-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 120px;
+    color: rgb(42, 42, 42);
+}
+
+.all-form select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.all-form input {
+    width: 78.5%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.additional-options {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.additional-options input {
+    margin-left: 120px;
+    margin-bottom: 20px;
+    align-items: end;
+    height: 20px;
+}
+
+.additional-options label {
+    margin-bottom: 15px;
+    text-align: start;
+    margin-left: 10px;
+    color: black;
+}
+
+.switch-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 78px;
+    margin-bottom: 10px;
+    margin-top: -57px; 
+}
+
+.switch-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.switch-link span {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 41px;
+    vertical-align: top;
+    color: #9CAF88;
+}
+
+.switch-link span:hover {
+    color: #4f5846;
+}
+
+.calculate-button {
+    background-color: #9CAF88;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calculate-button:hover {
+    background-color: #4f5846;
+}
+
+.loading-message, .result-message {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 14px;
+    color: #555;
+    margin-left: 180px;
+    width: 70%;
+}
+
+.loading-message {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 12px;
+    background-color: white;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    height: 30px; 
+    width: 98%;
+    margin-top: auto;
+  }
+
+.left-img, .right-img {
+    width: 100px;
+    height: auto;
+}
+
+.right-img {
+    float: right;
+}
+
+.left-img {
+    float: left;
+}

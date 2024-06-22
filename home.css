@@ -1,0 +1,237 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(42, 42, 42);
+}
+
+.video-wrapper {
+    flex: 1;
+    position: relative;
+    overflow: hidden; 
+}
+
+.video-wrapper, .content-box {
+    width: 50%;
+    height: auto;
+}
+
+.video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 3px solid #007BFF;
+    background-color: #fff;
+}
+
+.logo-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo-container span {
+    color: green;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.logo-container {
+    text-align: left;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo .green {
+    color: green;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-button {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+nav .nav-button:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 20px 0;
+    margin-top: 150px; 
+    margin-bottom: 150px; 
+}
+
+.content-text {
+    flex: 1; 
+    text-align: center;
+    max-width: 50%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.content-text h2{
+    color: #9CAF88;
+}
+
+.content-image {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #9CAF88;
+}
+
+.content-box h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content-box p {
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.content-box .button-link {
+    padding: 10px 50px;
+    font-size: 1.2em;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 20px;
+    text-align: center; 
+    line-height: 1; 
+    transition: background-color 0.3s ease;
+}
+
+.content-box .button-link:hover {
+    background-color: #565f4b;
+}
+
+.info-boxes {
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-image: url('city-road-evening-traffic-4k_1538064907.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.info-boxes h1{
+    /* align-items: center;
+    text-decoration: none; */
+    margin-bottom: 20px;
+    color: #9CAF88;
+    font-weight: bolder;
+}
+
+.info-box {
+    background-color: rgba(42, 42, 42, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px); 
+    box-shadow: 0 2px 4px rgba(10, 10, 10, 0.5);
+}
+
+.info-boxes-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.info-box p{
+    color: white;
+    text-align: center;
+}
+
+.info-box li {
+    text-align: start;
+    color: white;
+    font-size: 15px;
+}
+
+.login-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #9CAF88; /* Background color for the box */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.login-link:hover {
+    background-color: #565f4b;
+}
+
+.signin-link {
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(42, 42, 42);
+    font-weight: bold;
+}
+
+.signin-link:hover {
+    color: #565f4b;
+}
