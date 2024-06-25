@@ -69,7 +69,7 @@ form {
     display: block;
     margin-bottom: 5px;
     text-align: left;
-    margin-left: 266px;
+    margin-left: 154px;
     color: rgb(43, 43, 43);
 }
 
@@ -96,7 +96,7 @@ form {
 }
 
 .additional-options input {
-    margin-left: 120px;
+    margin-left: 156px;
     margin-bottom: 20px;
     align-items: end;
     height: 20px;
@@ -127,7 +127,7 @@ form {
 .switch-link span {
     display: inline-flex;
     align-items: center;
-    margin-right: 41px;
+    margin-right: 76px;
     vertical-align: top;
     color: #9CAF88;
 }
